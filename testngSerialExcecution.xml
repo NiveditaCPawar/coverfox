@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="amazon">
+    <classes>
+      <class name="testNG_Excecution.Parallel_Amazon"/>
+      
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="flipkart">
+    <classes>
+     
+      <class name="testNG_Excecution.Parallel_Flipkart"/>
+   
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Instagram">
+    <classes>
+      
+      <class name="testNG_Excecution.Parallel_Instagram"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

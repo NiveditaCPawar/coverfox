@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testch(failed)">
+    <parameter name="bName" value="chrome"/>
+    <classes>
+      <class name="testNG_CrossBrowserTesting.FBLogin">
+        <methods>
+          <include name="fbAccount"/>
+        </methods>
+      </class> <!-- testNG_CrossBrowserTesting.FBLogin -->
+    </classes>
+  </test> <!-- Testch(failed) -->
+  <test thread-count="5" name="Testff(failed)">
+    <parameter name="bName" value="firefox"/>
+    <classes>
+      <class name="testNG_CrossBrowserTesting.FBLogin">
+        <methods>
+          <include name="fbAccount"/>
+        </methods>
+      </class> <!-- testNG_CrossBrowserTesting.FBLogin -->
+    </classes>
+  </test> <!-- Testff(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser luanching]]>
+    </line>
+    <line>
+      <![CDATA[Click on gender button]]>
+    </line>
+    <line>
+      <![CDATA[Click on Next button]]>
+    </line>
+    <line>
+      <![CDATA[handeling dropDown ]]>
+    </line>
+    <line>
+      <![CDATA[Click on next button]]>
+    </line>
+    <line>
+      <![CDATA[Entering pin code]]>
+    </line>
+    <line>
+      <![CDATA[entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[Click on continue button]]>
+    </line>
+    <line>
+      <![CDATA[error message is display ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closing ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-06T13:27:56 IST" name="Default suite" finished-at="2024-01-06T13:28:16 IST" duration-ms="19775">
+    <groups>
+    </groups>
+    <test started-at="2024-01-06T13:27:56 IST" name="Default test" finished-at="2024-01-06T13:28:16 IST" duration-ms="19775">
+      <class name="testNG1_Test.CF_TC512_ValidateErrorMessage">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG1_Test.CF_TC512_ValidateErrorMessage@65e98b1c]" started-at="2024-01-06T13:27:56 IST" name="beforeClass" finished-at="2024-01-06T13:28:01 IST" duration-ms="5202" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser luanching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG1_Test.CF_TC512_ValidateErrorMessage@65e98b1c]" started-at="2024-01-06T13:28:01 IST" name="beforeMethod" finished-at="2024-01-06T13:28:06 IST" duration-ms="4265" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on gender button]]>
+            </line>
+            <line>
+              <![CDATA[Click on Next button]]>
+            </line>
+            <line>
+              <![CDATA[handeling dropDown ]]>
+            </line>
+            <line>
+              <![CDATA[Click on next button]]>
+            </line>
+            <line>
+              <![CDATA[Entering pin code]]>
+            </line>
+            <line>
+              <![CDATA[entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[Click on continue button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CF_TC512_ValidateErrorMessageForPinCodeField()[pri:0, instance:testNG1_Test.CF_TC512_ValidateErrorMessage@65e98b1c]" started-at="2024-01-06T13:28:06 IST" name="CF_TC512_ValidateErrorMessageForPinCodeField" finished-at="2024-01-06T13:28:07 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[error message is display ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CF_TC512_ValidateErrorMessageForPinCodeField -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG1_Test.CF_TC512_ValidateErrorMessage@65e98b1c]" started-at="2024-01-06T13:28:07 IST" name="afterMethod" finished-at="2024-01-06T13:28:16 IST" duration-ms="9162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closing ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNG1_Test.CF_TC512_ValidateErrorMessage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
